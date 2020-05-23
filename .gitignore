@@ -9,6 +9,7 @@
 .gcc-flags.json
 .cache
 tasmota/user_config_override.h
+tasmota/user_config_override_SRCtrl_6.5.h
 build
 build_output
 firmware.map

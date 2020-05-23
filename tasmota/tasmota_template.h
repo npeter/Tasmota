@@ -233,6 +233,11 @@ enum UserSelectablePins {
   GPIO_BOILER_OT_RX,   // OpenTherm Boiler RX pin
   GPIO_BOILER_OT_TX,   // OpenTherm Boiler TX pin
   GPIO_WINDMETER_SPEED,  // WindMeter speed counter pin
+  GPIO_GW60_MOTOR_1,   // GW60 motor turn left (INPUT_PULLUP) npeter 2019-06-27
+  GPIO_GW60_MOTOR_2,   // GW60 motorturn right (INPUT_PULLUP)
+  GPIO_GW60_HALL_S,    // GW60 hall sensor (INPUT_PULLUP)
+  GPIO_GW60_UP,        // GW60 button up   (OUTPUT)
+  GPIO_GW60_DOWN,      // GW60 button down (OUTPUT)
   GPIO_SENSOR_END };
 
 // Programmer selectable GPIO functionality
@@ -323,6 +328,7 @@ const char kSensorNames[] PROGMEM =
   D_SENSOR_AS3935 "|" D_SENSOR_PMS5003_TX "|"
   D_SENSOR_BOILER_OT_RX "|" D_SENSOR_BOILER_OT_TX "|"
   D_SENSOR_WINDMETER_SPEED
+  D_SENSOR_GW60_MOTOR_1 "|" D_SENSOR_GW60_MOTOR_2 "|" D_SENSOR_GW60_HALL_S "|" D_SENSOR_GW60_UP "|" D_SENSOR_GW60_DOWN
   ;
 
 const char kSensorNamesFixed[] PROGMEM =
@@ -677,6 +683,13 @@ const uint8_t kGpioNiceList[] PROGMEM = {
 #ifdef USE_AS3935
   GPIO_AS3935,
 #endif
+#ifdef  USE_GW60       // npeter 2019-05-08
+   GPIO_GW60_MOTOR_1,  // GW60 motor turn left 
+   GPIO_GW60_MOTOR_2,  // GW60 motorturn right
+   GPIO_GW60_HALL_S,     // GW60 hall sensor 
+   GPIO_GW60_UP, // GW60 button up
+   GPIO_GW60_DOWN  // GW60 button down
+#endif // USE_GW60
 };
 
 /********************************************************************************************/

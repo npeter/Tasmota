@@ -678,6 +678,13 @@
 #define D_SENSOR_ELECTRIQ_MOODL "MOODL Tx"
 #define D_SENSOR_AS3935        "AS3935"
 #define D_SENSOR_WINDMETER_SPEED "WindMeter Spd"
+//xsns__91_gw60.ino
+#define D_SENSOR_GW60_MOTOR_1     "GW60 mot1"  
+#define D_SENSOR_GW60_MOTOR_2     "GW60 mot2"
+#define D_SENSOR_GW60_HALL_S      "GW60 halls"
+#define D_SENSOR_GW60_UP          "GW60 up"
+#define D_SENSOR_GW60_DOWN        "GW60 down"
+
 #define D_GPIO_WEBCAM_PWDN     "CAM_PWDN"
 #define D_GPIO_WEBCAM_RESET    "CAM_RESET"
 #define D_GPIO_WEBCAM_XCLK     "CAM_XCLK"
