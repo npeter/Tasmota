@@ -15,6 +15,8 @@ A specific PCB and housing (3D-printed) was created as piggy-back for the GW60 h
 
 I tried to follow the rules and principles for the extension of sonoff-tasmota firmware as best as known and understood at that time. But I'm sure some points are missed. Constructive comments and feedbacks are more than welcome.
 
+Project was started and V1 realized and installed based on sonof-tasmota V6.5. At that time sonof-tasmota did't support blinds. 
+
 ## Functional requirements
 
 The following smart blind functions should be available via the remote interface
@@ -36,7 +38,7 @@ The following smart blind functions should be available via the remote interface
 <li>Simplify3D: 3D Printing Software (GCode generation)</li>
 <li>KiCAD: Scematic and PCB design (http://www.kicad-pcb.org/)</li>
 
-(c) Peter Neeser 2019
+(c) Peter Neeser 2019/2020
 
 
 # Design
@@ -65,11 +67,10 @@ The two GW60 mounting variants (surfacd mounted and concealed) selected by chang
 
  <br>
 
-![](./Etc/Doc/SRCtrl-Tasmota-Configuration-surface-mounted.png)*<br>Sonoff-Tasmota Configuration for surface mounted GW60*
-
+![TODO](Etc/Doc/SRCtrl-Tasmota-Configuration-surface-mounted.png)*<br>Sonoff-Tasmota Configuration for surface mounted GW60*
 <br>
 
-![](./Etc/Doc/SRCtrl-Tasmota-Configuration-concealed.png)*<br>Sonoff-Tasmota Configuration for concealed mounted GW60*
+![TODO](./Etc/Doc/SRCtrl-Tasmota-Configuration-concealed.png)*<br>Sonoff-Tasmota Configuration for concealed mounted GW60*
 <br>
 <br>
 

@@ -1,7 +1,11 @@
-SRCtrl von sonof-Tasmota V6.5 nach tasmota V8.1 
+<br>2020-01-26: Migration SRCtrl von sonof-Tasmota V6.5 nach tasmota V8.1 
+<br>2020-05-23: Migration tasmota V8.1 nach tasmota 8.3.1
+<br>2020-05-27: USE_I2C added in in user_config_override.h 
+<br>2020-05-28: Merge failour in tasmota_template.h corrected 
 
 1. Merge user_config_override.h from ghSRCtrl
-- als tasmota\user_config_override_SRCtrl_6.5.h bereitstellen
+- V6.5 als tasmota\user_config_override_SRCtrl_6.5.h bereitstellen
+- ab V8. merge  "old" .\tasmota\user_config_override.h   
 - in .gitignore eintragen
 - merge: keine grossen Änderungen; Define-Sektion übernehmen
 - v.8.1 -> 8.3 #define MY_LANGUAGE de-DE.h -> de_DE.h

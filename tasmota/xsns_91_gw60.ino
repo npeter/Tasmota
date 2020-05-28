@@ -42,6 +42,7 @@
   * 
   * Peter Neeser Rev. 2019-06-25
   *                   2020-01-26 migration to Tasmota 8.1
+  *                   2020-05-23 migration to Tasmota 8.3.1
  */
 
 #ifdef USE_GW60
