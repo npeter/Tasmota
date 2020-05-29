@@ -67,7 +67,7 @@ The two GW60 mounting variants (surfacd mounted and concealed) selected by chang
 
  <br>
 
-![TODO](Etc/Doc/SRCtrl-Tasmota-Configuration-surface-mounted.png)*<br>Sonoff-Tasmota Configuration for surface mounted GW60*
+![hallo](./Etc/Doc/SRCtrl-Tasmota-Configuration-surface-mounted.png)*<br>Sonoff-Tasmota Configuration for surface mounted GW60*
 <br>
 
 ![TODO](./Etc/Doc/SRCtrl-Tasmota-Configuration-concealed.png)*<br>Sonoff-Tasmota Configuration for concealed mounted GW60*
@@ -76,8 +76,8 @@ The two GW60 mounting variants (surfacd mounted and concealed) selected by chang
 
 ## Datamodel
 
-| Name | Type | Access | Values | Description |
-| --- | --- | --- | --- | --- | --- |
+| Name | Type | Access | Values | Description 
+| --- | --- | --- | --- | --- | ---
 | DOWN | u | r/w | false/true | simulate GW60 down/up button press (true)
 | UP | u | r/w | false/true | simulate GW60 down/up button press (true)
 | M | u | r | false/true | GW60 motor standstill/rotating (any direction) M = M1 OR M2
