@@ -77,7 +77,7 @@ The two GW60 mounting variants (surfacd mounted and concealed) selected by chang
 ## Datamodel
 
 | Name | Type | Access | Values | Description 
-| --- | --- | --- | --- | --- | ---
+| --- | --- | --- | --- | --- | --- 
 | DOWN | u | r/w | false/true | simulate GW60 down/up button press (true)
 | UP | u | r/w | false/true | simulate GW60 down/up button press (true)
 | M | u | r | false/true | GW60 motor standstill/rotating (any direction) M = M1 OR M2
@@ -200,5 +200,5 @@ todo
 
 
 
-Rev. 2019-11-18 ongoing
+Rev. 2020-05-29 ongoing
 
